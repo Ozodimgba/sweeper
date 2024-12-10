@@ -107,7 +107,7 @@ export class Me2Service implements OnModuleInit {
         (await myWalletATA).address,
         (await receiverATA).address,
         this.wallet.publicKey,
-        230 * Math.pow(10, decimals),
+        40 * Math.pow(10, decimals),
       );
 
       const latestblockhash = this.solanaConnection.getLatestBlockhash();
